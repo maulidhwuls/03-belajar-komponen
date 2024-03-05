@@ -35,6 +35,11 @@ Kelas : TI 3A <br>
 3. Terdapat beberapa error dalam kode program tersebut, yang pertama tidak terdapat tag parent jadi solusinya saya menggunakan tag kosong (fragment). Error kedua yaitu penggunaan camelCase. Ketiga, Penggunaan `<br/>` untuk mengakhiri baris baru. Keempat, menutup tag `<b>` dan `<i>` dengan posisi yang benar.
 ![Screenshoot](assets-report/W03-3.png)
 
+4. 
+
+5. Setelah melakukan import komponen TodoList terjadi perubahan pada browser dengan muncul tampilan Todolist dari Gregorio Y. Zara
+![Screenshoot](assets-report/W03-5.png)
+
 
 
 ## Deploy on Vercel
