@@ -1,3 +1,4 @@
+import Bio from "@/components/bio";
 import { Gallery } from "@/components/gallery";
 import Profile from "@/components/profile";
 import Image from "next/image";
@@ -10,6 +11,9 @@ export default function Home() {
         <h1>Ilmuwan Luar Biasa</h1>
         <div className= "mt-4 flex flex-row justify-between">
           <Gallery/>
+        </div>
+        <div>
+          <Bio/>
         </div>
       </div>
 

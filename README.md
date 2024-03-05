@@ -32,6 +32,10 @@ Kelas : TI 3A <br>
 2. Pada kasus nomor 2 ini, kita melakukan import komponen yang disebut dengan "named import", yang mana dalam melakukan named import kita bisa memilih nilai mana yang akan diimport. Dalam hal ini kita hanya mengimpor nilai yang diberi nama 'Gallery' dari file gallery.tsx. Jadi bisa saja kita memiliki nilai komponen yang berbeda dalam 1 file komponen. Untuk tampilannya sama dengan tampilan yang nomor 1, karena pada file Gallery.tsx kita mengimport komponen profile.
 ![Screenshoot](assets-report/W03-2.png)
 
+3. Terdapat beberapa error dalam kode program tersebut, yang pertama tidak terdapat tag parent jadi solusinya saya menggunakan tag kosong (fragment). Error kedua yaitu penggunaan camelCase. Ketiga, Penggunaan `<br/>` untuk mengakhiri baris baru. Keempat, menutup tag `<b>` dan `<i>` dengan posisi yang benar.
+![Screenshoot](assets-report/W03-3.png)
+
+
 
 ## Deploy on Vercel
 
