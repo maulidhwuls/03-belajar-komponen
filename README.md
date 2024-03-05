@@ -29,6 +29,9 @@ Kelas : TI 3A <br>
 1. Untuk mengatasi error tersebut kita harus memasukkan atau menginisiasi domain image karena data image tidak dapat diload di browser, sehingga kita harus memasukkan url image yang digunakan pada file profile.tsx ke dalam file next.config.mjs.
 ![Screenshoot](assets-report/W03-1.png)
 
+2. Pada kasus nomor 2 ini, kita melakukan import komponen yang disebut dengan "named import", yang mana dalam melakukan named import kita bisa memilih nilai mana yang akan diimport. Dalam hal ini kita hanya mengimpor nilai yang diberi nama 'Gallery' dari file gallery.tsx. Jadi bisa saja kita memiliki nilai komponen yang berbeda dalam 1 file komponen. Untuk tampilannya sama dengan tampilan yang nomor 1, karena pada file Gallery.tsx kita mengimport komponen profile.
+![Screenshoot](assets-report/W03-2.png)
+
 
 ## Deploy on Vercel
 
