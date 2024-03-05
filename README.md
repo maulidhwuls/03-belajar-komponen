@@ -40,6 +40,8 @@ Kelas : TI 3A <br>
 5. Setelah melakukan import komponen TodoList terjadi perubahan pada browser dengan muncul tampilan Todolist dari Gregorio Y. Zara
 ![Screenshoot](assets-report/W03-5.png)
 
+6. Penggunaan `${}` dalam string JSX adalah contoh dari string interpolation. Dalam kasus ini, kita menggunakan nilai baseUrl, person.imageId, dan person.imageSize untuk mengonstruksi URL gambar secara dinamis. Untuk tampilan di browser sama dengan tampilan pada nomor 5. Tampilan akan berubah jika kita mengubah nilai dari properti imageSize dalam object person ,enjadi `b` maka tampilan gambar di browser akan menjadi besar.
+![Screenshoot](assets-report/W03-6.png)
 
 
 ## Deploy on Vercel
