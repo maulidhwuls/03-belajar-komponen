@@ -43,6 +43,9 @@ Kelas : TI 3A <br>
 6. Penggunaan `${}` dalam string JSX adalah contoh dari string interpolation. Dalam kasus ini, kita menggunakan nilai baseUrl, person.imageId, dan person.imageSize untuk mengonstruksi URL gambar secara dinamis. Untuk tampilan di browser sama dengan tampilan pada nomor 5. Tampilan akan berubah jika kita mengubah nilai dari properti imageSize dalam object person ,enjadi `b` maka tampilan gambar di browser akan menjadi besar.
 ![Screenshoot](assets-report/W03-6.png)
 
+7. Dalam file mygallery.tsx kita sudah menerapkan penggunaan props / properties yang berfungsi untuk mentransfer data dari komponen induk ke komponen anak. Dalam kasus ini, props seperti name, imageId, profession, awards, dan discovery digunakan untuk memberikan data ke dalam komponen MyProfile. Dalam kode program tersebut kita juga menggunakan fungsi getImageUrl dari file utils.tsx. Fungsi ini digunakan untuk menghasilkan URL gambar berdasarkan imageId yang diberikan.
+![Screenshoot](assets-report/W03-7.png)
+
 
 ## Deploy on Vercel
 
