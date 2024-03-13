@@ -2,6 +2,7 @@ import Bio from "@/components/bio";
 import { Gallery } from "@/components/gallery";
 import MyGallery from "@/components/mygallery";
 import MyProfile from "@/components/myprofile";
+import MyProfileV2 from "@/components/myprofilev2";
 import Profile from "@/components/profile";
 import TodoList from "@/components/todolist";
 import Image from "next/image";
@@ -20,6 +21,9 @@ export default function Home() {
         </div>
         <div>
           <br /> <MyProfile/>
+        </div>
+        <div>
+          <MyProfileV2/>
         </div>
         
       </div>

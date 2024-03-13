@@ -54,7 +54,8 @@ Kelas : TI 3A <br>
     Bukti size = 100
     ![Screenshoot](assets-report/W03-8a.png)
 
-9. 
+9. Untuk tampilannya sama dengan tampilan jika kita tidak menggunakan komponen card dan props children. Bedanya, pada penggunaan komponen card ini memudahkan kita untuk menggunakan komponen secara berulang dan membebaskan kita untuk meletakkan kode apapun pada props children ini. Penggunaan komponen card dengan props children ini bisa digunakan secara berulang tanpa harus membuat komponen baru setiap kita membutuhkannya.
+![Screenshoot](assets-report/W03-9.png)
 
 ## Deploy on Vercel
 

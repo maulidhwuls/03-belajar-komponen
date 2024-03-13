@@ -15,7 +15,7 @@ function MyAvatar({ person, size }) {
 export default function MyProfile() {
   return (
     <MyAvatar
-      size={1000}
+      size={100}
       person={{ 
         name: 'Gregorio Y. Zara', 
         imageId: '7vQD0fP'
