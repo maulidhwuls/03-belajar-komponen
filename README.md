@@ -46,6 +46,15 @@ Kelas : TI 3A <br>
 7. Dalam file mygallery.tsx kita sudah menerapkan penggunaan props / properties yang berfungsi untuk mentransfer data dari komponen induk ke komponen anak. Dalam kasus ini, props seperti name, imageId, profession, awards, dan discovery digunakan untuk memberikan data ke dalam komponen MyProfile. Dalam kode program tersebut kita juga menggunakan fungsi getImageUrl dari file utils.tsx. Fungsi ini digunakan untuk menghasilkan URL gambar berdasarkan imageId yang diberikan.
 ![Screenshoot](assets-report/W03-7.png)
 
+8. Dalam file myprofile.tsx terdapat kode program yang salah yaitu pada pemanggilan fungsi getImageUrl pada source di fungsi MyAvatar. Seharusnya fungsi yang dipanggil ialah getImageUrlV2 agar dapat menggunakan props person dan size. Dan untuk size yang akan dipanggil pada saat proses load di browser bukan pada size yang diberi nilai 's' atau 'b' melainkan pada proses size yang nilainya diubah pada saat pemanggilan fungsi MyAvatar. Jadi apapun yang diberi nilai 's' atau 'b' tidak akan mempengaruhi tampilan pada browser, karena pada props size diberikan nilai saat proses pemanggilan fungsi MyAvatar.
+
+    Bukti size = 40
+![Screenshoot](assets-report/W03-8.png)
+
+    Bukti size = 100
+    ![Screenshoot](assets-report/W03-8a.png)
+
+9. 
 
 ## Deploy on Vercel
 

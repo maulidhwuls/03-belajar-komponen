@@ -1,31 +1,25 @@
-import React from 'react';
-import { getImageUrl } from '@/utils/utils';
+import { getImageUrlV2 } from '@/utils/utils';
 
-export default function MyProfile({ name, imageId, profession, awards, discovery }) {
+function MyAvatar({ person, size }) {
   return (
-    <section className="profile">
-      <h2>{name}</h2>
-      <img
-        className="avatar"
-        src={getImageUrl(imageId)}
-        alt={name}
-        width={70}
-        height={70}
-      />
-      <ul>
-        <li>
-          <b>Profesi: </b> 
-          {profession}
-        </li>
-        <li>
-          <b>Penghargaan: {awards.length} </b> 
-          ({awards.join(', ')})
-        </li>
-        <li>
-          <b>Telah Menemukan: </b>
-          {discovery}
-        </li>
-      </ul>
-    </section>
+    <img
+      className="avatar"
+      src={getImageUrlV2(person, 'b')}
+      alt={person.name}
+      width={size}
+      height={size}
+    />
+  );
+}
+
+export default function MyProfile() {
+  return (
+    <MyAvatar
+      size={1000}
+      person={{ 
+        name: 'Gregorio Y. Zara', 
+        imageId: '7vQD0fP'
+      }}
+    />
   );
 }

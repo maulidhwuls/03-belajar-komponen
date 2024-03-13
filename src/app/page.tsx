@@ -19,8 +19,9 @@ export default function Home() {
           <TodoList/>
         </div>
         <div>
-          <MyGallery/>
+          <br /> <MyProfile/>
         </div>
+        
       </div>
 
     </main>
